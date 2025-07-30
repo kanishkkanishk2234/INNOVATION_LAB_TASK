@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task 1 - Variables</title>
+  <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+  <h1>Task 1: JavaScript Variables</h1>
+  <p>Open console to see the output (Right-click → Inspect → Console).</p>
+
+  <script src="task1.js"></script>
+</body>
+</html>
+
+
+#java script 
+console.log("=== Task 1: Variables ===");
+var name = "kanishk";
+let age = 20;
+const country = "India";
+
+console.log("Name (var):", name);
+console.log("Age (let):", age);
+console.log("Country (const):", country);
+
+name = "P.V";
+age = 21;
+
+console.log("Modified Name:", name);
+console.log("Modified Age:", age);
